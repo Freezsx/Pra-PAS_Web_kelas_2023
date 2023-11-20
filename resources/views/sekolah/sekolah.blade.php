@@ -16,6 +16,7 @@
         @foreach ($sekolah as $sekolahs)
           <tr>
             <td>{{ $sekolahs->name }}</td>
+            <td>{{ $sekolahs->tanggal }}</td>
             <td>{{ $sekolahs->alamat }}</td>
             <td>
               <a href="/sekolah/detail3{{ $sekolahs->id }}" class="btn btn-primary">Detail</a>
