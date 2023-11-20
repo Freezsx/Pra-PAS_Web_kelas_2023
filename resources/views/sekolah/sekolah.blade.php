@@ -8,6 +8,7 @@
       <thead class="table">
         <tr>
           <th>Nama</th>
+          <th>Tanggal</th>
           <th>Alamat</th>
           <th>Action</th>
         </tr>
