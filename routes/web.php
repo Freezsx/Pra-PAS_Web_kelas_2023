@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\KulinerController;
+use App\Http\Controllers\SekolahController;
 use App\Http\Controllers\WisataController;
 use Illuminate\Support\Facades\Route;
 
@@ -45,3 +46,7 @@ Route::get("/wisata/detail{wisatawan}",[WisataController::class,'show']);
 Route::get("/kuliner/all2",[KulinerController::class,'index']);
     
 Route::get("/kuliner/detail2{kuliners}",[KulinerController::class,'show']);
+
+Route::get('/sekolah/sekolah',[SekolahController::class,'index']);
+
+Route::get('/sekolah/detail3{seholahs}',[SekolahController::class,'show']);
